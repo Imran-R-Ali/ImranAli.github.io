@@ -1768,7 +1768,9 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 1024px; /* Set the desired width */
+			height: 1024px; /* Set the desired height */
+			object-fit: cover; /* Ensures the image covers the dimensions without distortion */
 		}
 
 		.image.featured {
